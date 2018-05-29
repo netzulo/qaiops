@@ -40,17 +40,19 @@ How to exec tests ?
 Usage guide
 ~~~~~~~~~~~
 
-```
-iops [-n|--num-threads threads] [-t|--time time] [-m|--machine-readable]
-     [-b|--block-size size] [-p|--pattern random|sequential] <device>
+::
 
-num-threads         := number of concurrent io threads, default 32
-time                := time in seconds, default 2
-machine-readable    := used to switch off conversion into MiB and other SI units
-block-size          := block size (should be a multiple of 512)
-pattern             := random|sequential
-device              := some block device, like /dev/sda or \\\\.\\PhysicalDrive0
-```
+    iops [-n|--num-threads threads] [-t|--time time] [-m|--machine-readable]
+         [-b|--block-size size] [-p|--pattern random|sequential] <device>
+    
+    num-threads         := number of concurrent io threads, default 32
+    time                := time in seconds, default 2
+    machine-readable    := used to switch off conversion into MiB and other SI units
+    block-size          := block size (should be a multiple of 512)
+    pattern             := random|sequential
+    device              := some block device, like /dev/sda or \\\\.\\PhysicalDrive0
+
+
 
 Some examples of usage
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -64,7 +66,7 @@ Some examples of usage
 Contributing
 ~~~~~~~~~~~~
 
-We welcome contributions to BDOC-core! These are the many ways you can help:
+We welcome contributions to **qaiops**! These are the many ways you can help:
 
 * Submit patches and features
 * Make BDOC-core ( *new updates to improve main library* )
