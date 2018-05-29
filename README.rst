@@ -69,7 +69,7 @@ Contributing
 We welcome contributions to **qaiops**! These are the many ways you can help:
 
 * Submit patches and features
-* Make BDOC-core ( *new updates to improve main library* )
+* Make **qaiops** ( *new updates to improve main library* )
 * Improve the Documentation at github-pages_
 * Report bugs 
 * And Donate_ !
